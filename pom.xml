@@ -42,5 +42,7 @@
 	</build>
 	<modules>
 		<module>helloweb</module>
+		<module>emailist01</module>
+		<module>guestbook01</module>
 	</modules>
 </project>
