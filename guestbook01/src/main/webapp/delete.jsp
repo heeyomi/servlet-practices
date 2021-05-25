@@ -24,14 +24,16 @@
 <body>
 <h2>방명록을 삭제했습니다.</h2>
 	<%
+	response.sendRedirect(request.getContextPath());
+
 	break;
 		}
 	}
 	if(!flag) {
 	%>
 	<h2>비밀번호가 일치하지 않습니다.</h2>
+	<a href= "<%= request.getContextPath() %>">메인으로 돌아가기</a>
 	<% }
-	response.sendRedirect(request.getContextPath());
 	%>
 </body>
 </html>
