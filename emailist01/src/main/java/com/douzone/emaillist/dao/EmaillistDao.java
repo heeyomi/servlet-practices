@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.douzone.eamillist.vo.EmaillistVo;
+import com.douzone.emaillist.vo.EmaillistVo;
 
 public class EmaillistDao {
 	private Connection getConnection() throws SQLException {

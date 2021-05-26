@@ -1,4 +1,4 @@
-package com.douzone.eamillist.vo;
+package com.douzone.emaillist.vo;
 
 public class EmaillistVo {
 	private Long no;

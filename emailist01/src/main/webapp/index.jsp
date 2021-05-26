@@ -1,5 +1,5 @@
-﻿<%@page import="java.util.List"%>
-<%@page import="com.douzone.eamillist.vo.EmaillistVo"%>
+<%@page import="com.douzone.emaillist.vo.EmaillistVo"%>
+<%@page import="java.util.List"%>
 <%@page import="com.douzone.emaillist.dao.EmaillistDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
