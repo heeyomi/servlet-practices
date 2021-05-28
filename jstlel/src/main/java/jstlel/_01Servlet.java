@@ -1,6 +1,8 @@
 package jstlel;
 
 import java.io.IOException;
+import java.util.Map;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,6 +27,7 @@ public class _01Servlet extends HttpServlet {
 		request.setAttribute("bval", bVal);
 		request.setAttribute("sval", sVal);
 
+		
 		// 객체
 		
 		Object obj = null;

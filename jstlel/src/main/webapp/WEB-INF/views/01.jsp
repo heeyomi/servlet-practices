@@ -30,5 +30,21 @@
 	${vo != null }	<br/>
 	${empty obj}	<br/>
 	${not empty vo}	<br/>
+	
+	<h1>논리 연산</h1>
+	${ival == 10 && lval < 10000 }<br/>
+	${ival < 5 || lval -20 == 0}<br/>
+
+	<h1>Map으로 값 받아오기</h1>
+	${m.ival }<br/>
+	${m.lval }<br/>
+	${m.fval }<br/>
+	${m.bval }<br/>
+	${m.sval }<br/>
+	
+	<h1>요청 파라미터의 값</h1>
+	-- ${param.a }--<br/>
+	-- ${param.email }--<br/>
+	
 </body>
 </html>
